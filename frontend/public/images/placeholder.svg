@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#f2f4f8"/>
+  <rect x="8" y="8" width="384" height="284" fill="none" stroke="#d7dce5" stroke-width="2" stroke-dasharray="8 6"/>
+  <circle cx="200" cy="126" r="44" fill="#e2e7f0"/>
+  <path d="M182 126l12 12 24-26" fill="none" stroke="#9aa7bd" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="200" y="212" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="600" fill="#8b97ad" text-anchor="middle">Oboe</text>
+  <text x="200" y="240" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#a7b1c4" text-anchor="middle">ảnh local (chưa có file gốc)</text>
+</svg>

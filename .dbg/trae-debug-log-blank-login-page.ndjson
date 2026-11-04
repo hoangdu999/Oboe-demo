@@ -1,0 +1,8 @@
+{"sessionId":"blank-login-page","runId":"pre-fix","hypothesisId":"A","msg":"[firebase.js] Checking firebaseConfig","data":{"hasApiKey":false},"ts":1793719357420}
+{"sessionId":"blank-login-page","runId":"pre-fix","hypothesisId":"A","msg":"[firebase.js] Firebase NOT initialized - no apps","data":{},"ts":1793719357422}
+{"sessionId":"blank-login-page","runId":"pre-fix","hypothesisId":"B","msg":"[FormAuthen.vue] Initializing ui","data":{"hasAuth":false},"ts":1793719357541}
+{"sessionId":"blank-login-page","runId":"pre-fix","hypothesisId":"B","msg":"[FormAuthen.vue] Skipping ui initialization - auth is null","data":{},"ts":1793719357544}
+{"sessionId":"blank-login-page","runId":"pre-fix","hypothesisId":"A","msg":"[firebase.js] Firebase NOT initialized - no apps","data":{},"ts":1793719385292}
+{"sessionId":"blank-login-page","runId":"pre-fix","hypothesisId":"A","msg":"[firebase.js] Checking firebaseConfig","data":{"hasApiKey":false},"ts":1793719385291}
+{"sessionId":"blank-login-page","runId":"pre-fix","hypothesisId":"B","msg":"[FormAuthen.vue] Initializing ui","data":{"hasAuth":false},"ts":1793719385342}
+{"sessionId":"blank-login-page","runId":"pre-fix","hypothesisId":"B","msg":"[FormAuthen.vue] Skipping ui initialization - auth is null","data":{},"ts":1793719385343}

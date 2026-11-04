@@ -1,0 +1,13 @@
+.idea
+.idea/
+
+# Công cụ portable cài đặt local (JDK, MySQL) — không commit
+.tools/
+# File người dùng upload khi chạy local
+uploads/
+
+# File biến môi trường local / secret
+.env
+.env.local
+backend/Oboe/.env
+backend/Oboe/.env.local

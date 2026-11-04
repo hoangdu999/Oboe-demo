@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+<title id="title">Oboe Sensei Avatar</title>
+<desc id="desc">Local avatar illustration for Oboe Sensei with a friendly teacher style.</desc>
+<defs>
+<linearGradient id="bg" x1="20" y1="16" x2="140" y2="144" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#d10d5d"/>
+<stop offset="1" stop-color="#99053f"/>
+</linearGradient>
+<linearGradient id="face" x1="56" y1="48" x2="108" y2="118" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#fffdf8"/>
+<stop offset="1" stop-color="#f8f1df"/>
+</linearGradient>
+<filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+<feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#7f0839" flood-opacity=".28"/>
+</filter>
+</defs>
+<rect width="160" height="160" rx="40" fill="url(#bg)"/>
+<circle cx="80" cy="80" r="52" fill="#ffffff" opacity=".12"/>
+<g filter="url(#shadow)">
+<circle cx="80" cy="82" r="40" fill="url(#face)"/>
+<path d="M49 73c2-23 16-37 31-37 13 0 22 5 31 15 8 8 10 17 10 22-9-7-18-10-30-10-12 0-27 4-42 10z" fill="#ffd11a"/>
+<circle cx="66" cy="82" r="4.5" fill="#7a3d14"/>
+<circle cx="94" cy="82" r="4.5" fill="#7a3d14"/>
+<path d="M68 101c7 7 17 7 24 0" fill="none" stroke="#7a3d14" stroke-linecap="round" stroke-width="4.5"/>
+<circle cx="57" cy="71" r="6" fill="#ffdf4d"/>
+<circle cx="103" cy="66" r="5" fill="#ffdf4d"/>
+<path d="M59 120c8-9 17-13 21-13 6 0 15 4 22 13" fill="none" stroke="#e5b33b" stroke-linecap="round" stroke-width="7"/>
+<rect x="52" y="26" width="56" height="18" rx="9" fill="#ffd11a"/>
+<circle cx="62" cy="35" r="3" fill="#c18400"/>
+<circle cx="80" cy="35" r="3" fill="#c18400"/>
+<circle cx="98" cy="35" r="3" fill="#c18400"/>
+</g>
+<circle cx="123" cy="37" r="11" fill="#ffd11a"/>
+<path d="M123 31v12M117 37h12" stroke="#9a0540" stroke-linecap="round" stroke-width="3"/>
+</svg>
