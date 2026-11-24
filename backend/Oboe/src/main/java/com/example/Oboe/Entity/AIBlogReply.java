@@ -15,7 +15,7 @@ public class AIBlogReply {
     @JoinColumn(name = "blog_id", referencedColumnName = "blog_id")
     private Blog blog;
 
-    @Lob
+    @Column(columnDefinition = "TEXT")
     private String content;
 
     @Column(name = "created_at", columnDefinition = "DATETIME(6)")

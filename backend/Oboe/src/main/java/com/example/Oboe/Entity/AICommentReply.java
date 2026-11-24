@@ -16,7 +16,7 @@ public class AICommentReply {
     @JoinColumn(name = "comment_id", referencedColumnName = "comment_id")
     private Comment comment;
 
-    @Lob
+    @Column(columnDefinition = "TEXT")
     private String content;
 
     @Column(name = "created_at", columnDefinition = "DATETIME(6)")

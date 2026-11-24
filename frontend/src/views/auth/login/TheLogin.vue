@@ -1,6 +1,8 @@
 <template>
     <div class="login" :style="`background-image: url(${ImagePaths.login.loginBackground})`">
-      <FormAuthen />
+      <div class="auth-content">
+        <FormAuthen />
+      </div>
     </div>
   </template>
   

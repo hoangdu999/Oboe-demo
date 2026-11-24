@@ -11,8 +11,12 @@ export function handleApiError(error) {
         return data; // Trường hợp backend trả chuỗi thông báo lỗi
       }
   
+      // Backend có thể trả message hoặc error
       if (data?.message) {
         return data.message;
+      }
+      if (data?.error) {
+        return data.error;
       }
   
       // Trường hợp không có message cụ thể
@@ -23,6 +27,8 @@ export function handleApiError(error) {
           return 'Bạn không có quyền thực hiện hành động này.';
         case 404:
           return 'Không tìm thấy tài nguyên.';
+        case 503:
+          return 'Dịch vụ AI đang quá tải. Vui lòng thử lại sau.';
         default:
           if (status >= 500) return 'Lỗi máy chủ. Vui lòng thử lại sau.';
           return 'Đã xảy ra lỗi. Vui lòng thử lại.';

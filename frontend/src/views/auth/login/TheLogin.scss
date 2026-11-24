@@ -8,6 +8,11 @@
   background-size: cover;
   border-radius: 20px;
   @include shadow-lg;
+  transform: scaleX(-1);
+
+  .auth-content {
+    transform: scaleX(-1);
+  }
 
   @include mobile-only {
     margin-top: 10px;
