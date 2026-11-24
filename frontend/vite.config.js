@@ -29,6 +29,8 @@ export default defineConfig({
         target: 'http://localhost:8080',
         changeOrigin: true,
         secure: true,
+        timeout: 120000,
+        proxyTimeout: 120000,
         configure: (proxy, options) => {
           proxy.on('error', (err, req, res) => {
 

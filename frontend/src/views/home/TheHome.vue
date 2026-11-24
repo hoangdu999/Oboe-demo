@@ -197,7 +197,7 @@ const loadRecommendedSets = async () => {
         description: item.description,
         author: {
           name: item.author,
-          avatar: item.avatarUrl || '/default-avatar.png'
+          avatar: item.avatarUrl || '/images/default-avatar.jpg'
         },
         type: 'quiz'
       }));

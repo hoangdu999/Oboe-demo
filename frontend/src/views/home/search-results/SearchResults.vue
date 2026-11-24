@@ -285,7 +285,7 @@ export default {
         termCount: item.termCount,
         author: { 
           name: item.authorName, 
-          avatar: item.avatarUrl || 'https://thumbs.dreamstime.com/b/default-avatar-profile-image-vector-social-media-user-icon-potrait-182347582.jpg'
+          avatar: item.avatarUrl || '/images/default-avatar.jpg'
         },
         terms: (item.cardItems || []).map(cardItem => ({
           front: cardItem.word,
@@ -299,7 +299,7 @@ export default {
         title: item.title,
         author: { 
           name: item.userName, 
-          avatar: item.avatarUrl || 'https://thumbs.dreamstime.com/b/default-avatar-profile-image-vector-social-media-user-icon-potrait-182347582.jpg'
+          avatar: item.avatarUrl || '/images/default-avatar.jpg'
         },
         answerCount: item.questionCount
       }));
@@ -310,7 +310,7 @@ export default {
         userId: item.userId,
         name: item.userName,
         userName: item.userName,
-        avatar: item.avatarUrl || 'https://thumbs.dreamstime.com/b/default-avatar-profile-image-vector-social-media-user-icon-potrait-182347582.jpg',
+        avatar: item.avatarUrl || '/images/default-avatar.jpg',
         sets: item.flashcardCount
       }));
     },

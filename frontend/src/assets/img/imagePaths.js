@@ -1,20 +1,18 @@
-// Ảnh tĩnh dùng khi chạy local (trước đây trỏ tới AWS S3 đã ngừng hoạt động).
-// Thay các đường dẫn dưới đây bằng file ảnh thật trong frontend/public/images/ nếu có.
-const PLACEHOLDER = '/images/placeholder.svg';
-
+// Ảnh tĩnh cho ứng dụng Oboe.
+// Các ảnh trước đây trỏ tới AWS S3 đã được thay bằng ảnh sinh nội bộ trong frontend/public/images/.
 export const ImagePaths = {
   // Avatar images
   avatar: {
-    default: PLACEHOLDER,
+    default: '/images/default-avatar.jpg',
     sensei: '/images/oboe-sensei-avatar.svg',
   },
 
   // Footer images
   footer: {
-    japanAi: PLACEHOLDER,
-    japanCulture: PLACEHOLDER,
-    japanSakura: PLACEHOLDER,
-    japanVisa: PLACEHOLDER,
+    japanAi: '/images/japan-ai.jpg',
+    japanCulture: '/images/japan-culture.jpg',
+    japanSakura: '/images/japan-sakura.jpg',
+    japanVisa: '/images/japan-visa.jpg',
   },
 
   // Intro images
@@ -25,12 +23,12 @@ export const ImagePaths = {
 
   // Learn images
   learn: {
-    celebration: PLACEHOLDER,
+    celebration: '/images/celebration.jpg',
   },
 
   // Login images
   login: {
-    loginBackground: PLACEHOLDER,
+    loginBackground: '/images/login-background.jpg',
   },
 
   // Logo images

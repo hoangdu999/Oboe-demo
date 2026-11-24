@@ -11,6 +11,11 @@
     background-size: cover;
     border-radius: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Bóng đổ mạnh */
+    transform: scaleX(-1);
+
+    .auth-content {
+      transform: scaleX(-1);
+    }
   }
   @media screen and (max-width: 768px) {
     .the-register {

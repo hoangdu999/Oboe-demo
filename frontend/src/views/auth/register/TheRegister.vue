@@ -1,6 +1,8 @@
 <template>
     <div class="the-register" :style="`background-image: url(${ImagePaths.login.loginBackground})`" >
-      <FormAuthen :isRegister="true"/>
+      <div class="auth-content">
+        <FormAuthen :isRegister="true"/>
+      </div>
     </div>
   </template>
   

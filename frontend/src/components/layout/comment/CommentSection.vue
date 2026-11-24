@@ -28,7 +28,7 @@
         <div v-for="comment in comments" :key="comment.commentId" class="comment-item">
           <div class="comment-header">
             <div class="user-info">
-              <img :src="comment.avatarUrl || '/default-avatar.png'" alt="User avatar" class="avatar">
+              <img :src="comment.avatarUrl || '/images/default-avatar.jpg'" alt="User avatar" class="avatar">
               <span class="username">{{ comment.userName || t('comments.anonymous') }}</span>
             </div>
             <span class="timestamp">{{ formatDate(comment.createdAt) }}</span>
@@ -40,7 +40,7 @@
             <div v-for="reply in comment.replies" :key="reply.commentId" class="reply-item">
               <div class="comment-header">
                 <div class="user-info">
-                  <img :src="reply.avatarUrl || '/default-avatar.png'" alt="User avatar" class="avatar">
+                  <img :src="reply.avatarUrl || '/images/default-avatar.jpg'" alt="User avatar" class="avatar">
                   <span class="username">{{ reply.userName || t('comments.anonymous') }}</span>
                 </div>
                 <span class="timestamp">{{ formatDate(reply.createdAt) }}</span>

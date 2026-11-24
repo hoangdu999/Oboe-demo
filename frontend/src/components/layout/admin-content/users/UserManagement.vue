@@ -384,7 +384,7 @@ const fetchUsers = async () => {
         // Sử dụng status từ API: ACTION = active, BANNED = banned
         status: user.status === 'ACTION' ? 'active' : 'banned',
         joinDate: user.create_at ? new Date(user.create_at).toISOString().split('T')[0] : '',
-        avatar: user.avatarUrl ? user.avatarUrl.trim() : 'https://thumbs.dreamstime.com/b/default-avatar-profile-image-vector-social-media-user-icon-potrait-182347582.jpg',
+        avatar: user.avatarUrl ? user.avatarUrl.trim() : '/images/default-avatar.jpg',
         accountType: user.accountType, // FREE hoặc PREMIUM
         authProvider: user.authProvider, // EMAIL, GOOGLE, FACEBOOK
         dayOfBirth: user.day_of_birth,
@@ -562,7 +562,7 @@ const saveUserEdit = async () => {
       userName: editingUser.value.username,
       firstName: editingUser.value.firstName,
       lastName: editingUser.value.lastName,
-      avatarUrl: editingUser.value.avatar || 'https://thumbs.dreamstime.com/b/default-avatar-profile-image-vector-social-media-user-icon-potrait-182347582.jpg',
+      avatarUrl: editingUser.value.avatar || '/images/default-avatar.jpg',
       address: editingUser.value.address,
       day_of_birth: editingUser.value.dayOfBirth,
       accountType: editingUser.value.accountType || 'FREE',

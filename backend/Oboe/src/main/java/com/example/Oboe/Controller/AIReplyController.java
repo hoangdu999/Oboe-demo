@@ -70,6 +70,11 @@ public class AIReplyController {
 
         String response = geminiService.generateTextFromPrompt(prompt);
 
+        // An toàn: cắt bớt nếu AI trả lời quá dài (cột content là TEXT, giới hạn ~64KB)
+        if (response != null && response.length() > 15000) {
+            response = response.substring(0, 15000);
+        }
+
         // Tạo phản hồi mới
         AIBlogReply newReply = new AIBlogReply();
         newReply.setId(UUID.randomUUID());
@@ -103,6 +108,11 @@ public class AIReplyController {
                 "\n\nHãy trả lời lịch sự, thân thiện, phù hợp ngữ cảnh. Không dùng markdown.";
 
         String response = geminiService.generateTextFromPrompt(prompt);
+
+        // An toàn: cắt bớt nếu AI trả lời quá dài (cột content là TEXT, giới hạn ~64KB)
+        if (response != null && response.length() > 15000) {
+            response = response.substring(0, 15000);
+        }
 
         AICommentReply reply = new AICommentReply();
         reply.setId(UUID.randomUUID());
